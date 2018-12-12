@@ -12,7 +12,7 @@ level_main = 0.05
 hi_critical_23_005 = 35.5  # 23 and 0.05
 hi_critical_11_005 = 19.7
 
-# data from table
+# X_values data
 drills = np.asarray([
     [14.8, 9.6, 15.7, 9.1, 8.7, 7.7, 16.1, 10.7, 25, 14.1, 10.9, 8.4, 18.4, 8.7, 16.9, 20.4, 11.3, 11.4, 19, 13.1, 20.5, 17.5, 12.3, 7.5],
     [0.16, 0.56, 0.13, 0.15, 0.88, 0.12, 0.17, 0.11, 0.16, 0.14, 0.11, 0.12, 0.14, 0.68, 0.18, 0.18, 0.94, 0.12, 0.17, 0.11, 0.62, 0.16, 0.12, 0.38],
@@ -41,7 +41,6 @@ normal_distribution = np.asarray([15.3, 14.3, 15.3, 16.0, 13.5, 14.5, 16.0, 13.4
 
 # result from comparison with data from table and generated normal distribution.
 # every number belong to data from table. 
-# functionality file: functionality -> hi_square.py
 # 1 - distribution is normal
 # 0 - distribution isn't normal
 y_train = np.asarray([1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1])
