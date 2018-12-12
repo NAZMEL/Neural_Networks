@@ -137,7 +137,7 @@ class Counter_Propagation:
 # work neural network
 if __name__ == '__main__':
     
-    net = Counter_Propagation(X_values, y_values, kohonen_neurons=2, grossberg_neurons=1, len_x_vector=24)
+    net = Counter_Propagation(X_values, y_values, kohonen_neurons=2, grossberg_neurons=1, len_x_vector=len(X_values[0]))
 
     t_start = time.perf_counter()
     net.fit(lr_kohonen=0.7, lr_grossberg=0.1, epochs=2)
