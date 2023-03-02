@@ -4,13 +4,6 @@ The algorithm was designed for studying and testing both Neural Networks: Counte
 ## Main excercise
 To teach the neural network to define data which ones belong to the normal distribution. And checking learned results on the data that is generated synthetically.
 
-## Main functions for distribution
-+ `calculate_mean()` - determining the average value of the normal distribution function.
-+ `get_mean_square_deviation()` - determining the standart deviation.
-+ `get_length_confidence_interval()` - determining the confidence interval for each distribution function.
-+ `borders_for_value()` - finding the limits of the true value of the gas-saturated thickness.
-+ `generate_normal_distributions(), generate_expon_distributions()` - functions for generate distributions.
-
 ## Main functions for Counter Propagation
 + `generate_weights()` - forming an array of weights.
 + `fit()` - the main studying function.
